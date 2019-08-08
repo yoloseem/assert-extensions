@@ -13,13 +13,13 @@ follow the below examples.
 
 ```kotlin
 // assertj
-assertThat(1).isEqualTo(1)
+assertThat(actual).isEqualTo(expected)
 
 // junit
-assertEquals(1, 1)
+assertEquals(expected, actual)
 
 // assert-extensions
-1.equalsTo(1)
+actual.equalsTo(expected)
 ```
 
 See the [tests](./src/test/kotlin/im/toss/assert-extensions/AssertionsKtTest.kt) for more examples.
