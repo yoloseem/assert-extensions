@@ -8,7 +8,7 @@ Assertions for Kotlin
 
 ## Usage
 
-[Add the dependency](https://jitpack.io/#toss/assert-extensions/v0.1.0) and
+[Add the dependency](https://jitpack.io/#toss/assert-extensions) and
 follow the below examples.
 
 ```kotlin
