@@ -3,7 +3,6 @@ package im.toss.test
 import org.assertj.core.api.Assertions
 
 fun Any?.equalsTo(other: Any?) {
-    assertEquals(1, 1)
     Assertions.assertThat(this).isEqualTo(other)
 }
 

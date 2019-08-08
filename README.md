@@ -1,14 +1,14 @@
-# assertt
+# assert-extensions
 
-[![Jitpack](https://jitpack.io/v/toss/assertt.svg)](https://jitpack.io/#toss/assertt)
-[![Build Status](https://travis-ci.org/toss/assertt.svg?branch=master)](https://travis-ci.org/toss/assertt)
-[![codecov](https://codecov.io/gh/toss/assertt/branch/master/graph/badge.svg)](https://codecov.io/gh/toss/assertt)
+[![Jitpack](https://jitpack.io/v/toss/assert-extensions.svg)](https://jitpack.io/#toss/assert-extensions)
+[![Build Status](https://travis-ci.org/toss/assert-extensions.svg?branch=master)](https://travis-ci.org/toss/assert-extensions)
+[![codecov](https://codecov.io/gh/toss/assert-extensions/branch/master/graph/badge.svg)](https://codecov.io/gh/toss/assert-extensions)
 
 Assertions for Kotlin
 
 ## Usage
 
-[Add the dependency](https://jitpack.io/#toss/assertt/v0.1.0) and
+[Add the dependency](https://jitpack.io/#toss/assert-extensions/v0.1.0) and
 follow the below examples.
 
 ```kotlin
@@ -18,11 +18,11 @@ assertThat(1).isEqualTo(1)
 // junit
 assertEquals(1, 1)
 
-// assertt
+// assert-extensions
 1.equalsTo(1)
 ```
 
-See the [tests](./src/test/kotlin/im/toss/assertt/AssertionsKtTest.kt) for more examples.
+See the [tests](./src/test/kotlin/im/toss/assert-extensions/AssertionsKtTest.kt) for more examples.
 
 ## Maintainers
 
