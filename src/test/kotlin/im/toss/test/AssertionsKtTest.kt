@@ -25,9 +25,9 @@ internal class AssertionsKtTest {
             1.doesNotEqualTo(1)
         }
 
-        1 doesNotEqualTo(2)
+        1 doesNotEqualTo 2
         assertThrows<AssertionError> {
-            1 doesNotEqualTo(1)
+            1 doesNotEqualTo 1
         }
     }
 
