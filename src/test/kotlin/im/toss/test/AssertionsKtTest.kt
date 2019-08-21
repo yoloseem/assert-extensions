@@ -11,6 +11,11 @@ internal class AssertionsKtTest {
         assertThrows<AssertionError> {
             1.equalsTo(2)
         }
+
+        1 equalsTo 1
+        assertThrows<AssertionError> {
+            1 equalsTo 2
+        }
     }
 
     @Test
@@ -18,6 +23,11 @@ internal class AssertionsKtTest {
         1.doesNotEqualTo(2)
         assertThrows<AssertionError> {
             1.doesNotEqualTo(1)
+        }
+
+        1 doesNotEqualTo(2)
+        assertThrows<AssertionError> {
+            1 doesNotEqualTo(1)
         }
     }
 

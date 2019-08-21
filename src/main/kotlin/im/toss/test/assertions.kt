@@ -2,11 +2,11 @@ package im.toss.test
 
 import org.assertj.core.api.Assertions
 
-fun Any?.equalsTo(other: Any?) {
+infix fun Any?.equalsTo(other: Any?) {
     Assertions.assertThat(this).isEqualTo(other)
 }
 
-fun Any?.doesNotEqualTo(other: Any?) {
+infix fun Any?.doesNotEqualTo(other: Any?) {
     Assertions.assertThat(this).isNotEqualTo(other)
 }
 
