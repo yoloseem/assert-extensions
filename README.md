@@ -19,7 +19,7 @@ assertThat(actual).isEqualTo(expected)
 assertEquals(expected, actual)
 
 // assert-extensions
-actual.equalsTo(expected)
+actual equalsTo expected
 ```
 
 See the [tests](./src/test/kotlin/im/toss/assert-extensions/AssertionsKtTest.kt) for more examples.
