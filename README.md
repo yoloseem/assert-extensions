@@ -22,7 +22,7 @@ assertEquals(expected, actual)
 actual equalsTo expected
 ```
 
-See the [tests](./src/test/kotlin/im/toss/assert-extensions/AssertionsKtTest.kt) for more examples.
+See the [tests](./src/test/kotlin/im/toss/test/AssertionsKtTest.kt) for more examples.
 
 ## Maintainers
 
